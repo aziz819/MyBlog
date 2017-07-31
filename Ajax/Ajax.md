@@ -124,18 +124,6 @@ XMLHttpRequest.onreadystatechange=function(){
 * ResponseTextプロパティとResponseXMLプロパティ<br>
 サーバからのレスポンスがテキスト形式かXML形式かで使い分けます。
 
-```JavaScript:ajaxonreadystatechange.js
-XMLHttpRequest.onreadystatechange=function(){
-    if(XMLHttpRequest.readyState == 4 ){
-        if(XMLHttpRequest.status == 200){
-            console.log(XMLHttpRequest.responseText);
-        }else{
-            // エラー表示
-        }
-    }
-}
-```
-
 
 <a id="reference"></a>
 # 参考URL
