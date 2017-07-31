@@ -121,10 +121,6 @@ XMLHttpRequest.onreadystatechange=function(){
 |404|ファイルが見つからない|
 |500|サーバエラー|
 
-* ResponseTextプロパティとResponseXMLプロパティ<br>
-サーバからのレスポンスがテキスト形式かXML形式かで使い分けます。
-
-
 <a id="reference"></a>
 # 参考URL
 [1]MDN web docs,MDN web docs,(最終閲覧日：2017年7月29日)<br>[https://developer.mozilla.org/ja/docs/AJAX/Getting_Started]<br>
