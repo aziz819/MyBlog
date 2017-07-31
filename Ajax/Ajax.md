@@ -121,7 +121,22 @@ XMLHttpRequest.onreadystatechange=function(){
 |404|ファイルが見つからない|
 |500|サーバエラー|
 
-<a id="reference"></a>
+* ResponseTextプロパティとResponseXMLプロパティ<br>
+サーバからのレスポンスがテキスト形式かXML形式かで使い分けます。
+
+```JavaScript:ajaxonreadystatechange.js
+XMLHttpRequest.onreadystatechange=function(){
+    if(XMLHttpRequest.readyState == 4 ){
+        if(XMLHttpRequest.status == 200){
+            console.log(XMLHttpRequest.responseText);
+        }else{
+            // エラー表示
+        }
+    }
+}
+```
+
+<a id="reference"></a>
 # 参考URL
 [1]MDN web docs,MDN web docs,(最終閲覧日：2017年7月29日)<br>[https://developer.mozilla.org/ja/docs/AJAX/Getting_Started]<br>
 [2]TATSUO IKURA,Ajax Tower,(最終閲覧日：2017年7月29日)<br>[https://www.ajaxtower.jp/ini/http/index2.html]<br>
