@@ -136,6 +136,7 @@ XMLHttpRequest.onreadystatechange=function(){
 }
 ```
 
+
 <a id="reference"></a>
 # 参考URL
 [1]MDN web docs,MDN web docs,(最終閲覧日：2017年7月29日)<br>[https://developer.mozilla.org/ja/docs/AJAX/Getting_Started]<br>
